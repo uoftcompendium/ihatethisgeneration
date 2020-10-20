@@ -7,7 +7,7 @@ const client = new Discord.Client();
 client.on("message", async message => {
   // ATTENTION !!!!!!! THIS IS WHERE YOU CAN CHANGE THE STATUS LOOK RIGHT BELOW
   // you can change the online thingy to 'online', 'idle', or 'dnd'
-  client.user.setPresence({ activity: { name: 'ur more inch resting than this lecture :)' }, status: 'idle' })
+  client.user.setPresence({ activity: { name: 'missing tank 😐' }, status: 'idle' })
  if(message.author.bot) return;
 
   
@@ -36,16 +36,16 @@ client.on("message", async message => {
    }
 
 
- if (message.content.toLowerCase().includes(`template00000`)) {
-     message.channel.send("output");
+ if (message.content.toLowerCase().includes(`rachel`)) {
+     message.channel.send("down bad");
    }
 
 
- if (message.content.toLowerCase().includes(`template00000`)) {
-     message.channel.send("output");
+ if (message.content.toLowerCase().includes(`riley`)) {
+     message.channel.send("Y'all need to shut up! This ain't the channel for flirting");
    }
 
- if (message.content.toLowerCase().includes(`template00000`)) {
+ if (message.content.toLowerCase().includes(`temp`)) {
      message.channel.send("output");
    }
 
