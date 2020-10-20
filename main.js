@@ -16,8 +16,8 @@ client.on("message", async message => {
 // replace the `filler10283` with the text u want the bot to catch
 // and then the "output" will be what the bot says
 
- if (message.content.toLowerCase().includes(`filler00001`)) {
-     message.channel.send("output");
+ if (message.content.toLowerCase().includes(`joe`)) {
+     message.channel.send("mama");
    }
 
  if (message.content.toLowerCase().includes(`filler00002`)) {
