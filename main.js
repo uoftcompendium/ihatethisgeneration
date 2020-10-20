@@ -22,7 +22,7 @@ client.on("message", async message => {
 
 
  if (message.content.toLowerCase().includes(`snoh`)) {
-     message.channel.send("alegraa crown belongs to kaischmoney");
+     message.channel.send("aalegra crown belongs to kaischmoney");
    }
 
 
