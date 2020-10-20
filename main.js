@@ -24,12 +24,12 @@ client.on("message", async message => {
      message.channel.send("calling all hot singles 35 and over :telephone:");
    }
 
- if (message.content.toLowerCase().includes(`filler00002`)) {
-     message.channel.send("output");
+ if (message.content.toLowerCase().includes(`celeste`)) {
+     message.channel.send("DOES NOT WANT ANT :speaking_head:");
    }
 
- if (message.content.toLowerCase().includes(`filler00003`)) {
-     message.channel.send("output");
+ if (message.content.toLowerCase().includes(`lolo`)) {
+     message.channel.send("simping grace :rolling_eyes:");
    }
 
  if (message.content.toLowerCase().includes(`filler00004`)) {
