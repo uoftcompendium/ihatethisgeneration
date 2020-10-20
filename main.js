@@ -20,8 +20,8 @@ client.on("message", async message => {
      message.channel.send("mama");
    }
 
- if (message.content.toLowerCase().includes(`filler00002`)) {
-     message.channel.send("output");
+ if (message.content.toLowerCase().includes(`anthony`)) {
+     message.channel.send("calling all hot singles 35 and over :telephone:");
    }
 
  if (message.content.toLowerCase().includes(`filler00002`)) {
