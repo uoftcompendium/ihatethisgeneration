@@ -36,8 +36,8 @@ client.on("message", async message => {
      message.channel.send("NOBODY :bangbang:");
    }
 
- if (message.content.toLowerCase().includes(`filler00005`)) {
-     message.channel.send("output");
+ if (message.content.toLowerCase().includes(`sugar plum`)) {
+     message.channel.send("the cutest person to exist ");
    }
 
  if (message.content.toLowerCase().includes(`kailey`)) {
