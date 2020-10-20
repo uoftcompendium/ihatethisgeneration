@@ -1,16 +1,41 @@
+// don't touch this
+
 const Discord = require('discord.js');
 const { token, prefix } = require('./config.json');
 const client = new Discord.Client();
 
-
-
 client.on("message", async message => {
-
   client.user.setPresence({ activity: { name: 'good luck on math 😁' }, status: 'dnd' })
-
  if(message.author.bot) return;
 
-// COMMANDS
+  
+  
+  
+// this is where the fun begins
+
+ if (message.content.toLowerCase().includes(`template00001`)) {
+     message.channel.send("output");
+   }
+
+ if (message.content.toLowerCase().includes(`template00002`)) {
+     message.channel.send("output");
+   }
+
+ if (message.content.toLowerCase().includes(`template00002`)) {
+     message.channel.send("output");
+   }
+
+ if (message.content.toLowerCase().includes(`template00003`)) {
+     message.channel.send("output");
+   }
+
+ if (message.content.toLowerCase().includes(`template00004`)) {
+     message.channel.send("output");
+   }
+
+ if (message.content.toLowerCase().includes(`template00005`)) {
+     message.channel.send("output");
+   }
 
  if (message.content.toLowerCase().includes(`kailey`)) {
      message.channel.send("becoming a drainer");
