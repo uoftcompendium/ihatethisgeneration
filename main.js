@@ -33,7 +33,7 @@ client.on("message", async message => {
    }
 
  if (message.content.toLowerCase().includes(`who wont me`)) {
-     message.channel.send("NOBODY :bangbang");
+     message.channel.send("NOBODY :bangbang:");
    }
 
  if (message.content.toLowerCase().includes(`filler00005`)) {
