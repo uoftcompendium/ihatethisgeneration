@@ -1,39 +1,42 @@
-// don't touch this
+// don't touch the next 3 lines
 
 const Discord = require('discord.js');
 const { token, prefix } = require('./config.json');
 const client = new Discord.Client();
 
 client.on("message", async message => {
-  client.user.setPresence({ activity: { name: 'good luck on math 😁' }, status: 'dnd' })
+  // ATTENTION !!!!!!! THIS IS WHERE YOU CAN CHANGE THE STATUS LOOK RIGHT BELOW
+  // you can change the online thingy to 'online', 'idle', or 'dnd'
+  client.user.setPresence({ activity: { name: 'good luck on math 😁' }, status: 'idle' })
  if(message.author.bot) return;
 
   
   
-  
 // this is where the fun begins
+// replace the `filler10283` with the text u want the bot to catch
+// and then the "output" will be what the bot says
 
- if (message.content.toLowerCase().includes(`template00001`)) {
+ if (message.content.toLowerCase().includes(`filler00001`)) {
      message.channel.send("output");
    }
 
- if (message.content.toLowerCase().includes(`template00002`)) {
+ if (message.content.toLowerCase().includes(`filler00002`)) {
      message.channel.send("output");
    }
 
- if (message.content.toLowerCase().includes(`template00002`)) {
+ if (message.content.toLowerCase().includes(`filler00002`)) {
      message.channel.send("output");
    }
 
- if (message.content.toLowerCase().includes(`template00003`)) {
+ if (message.content.toLowerCase().includes(`filler00003`)) {
      message.channel.send("output");
    }
 
- if (message.content.toLowerCase().includes(`template00004`)) {
+ if (message.content.toLowerCase().includes(`filler00004`)) {
      message.channel.send("output");
    }
 
- if (message.content.toLowerCase().includes(`template00005`)) {
+ if (message.content.toLowerCase().includes(`filler00005`)) {
      message.channel.send("output");
    }
 
