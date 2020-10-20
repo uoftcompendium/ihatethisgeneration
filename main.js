@@ -55,8 +55,8 @@ client.on("message", async message => {
    }
 
 
- if (message.content.toLowerCase().includes(`template00000`)) {
-     message.channel.send("output");
+ if (message.content.toLowerCase().includes(`glass`)) {
+     message.channel.send("animals belongs to huz and huz only");
    }
 
 
