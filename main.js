@@ -21,18 +21,18 @@ client.on("message", async message => {
    }
 
 
- if (message.content.toLowerCase().includes(`template00000`)) {
-     message.channel.send("output");
+ if (message.content.toLowerCase().includes(`snoh`)) {
+     message.channel.send("alegraa crown belongs to kaischmoney");
    }
 
 
- if (message.content.toLowerCase().includes(`template00000`)) {
-     message.channel.send("output");
+ if (message.content.toLowerCase().includes(`fan`)) {
+     message.channel.send("huz fake glass animals fan");
    }
 
 
- if (message.content.toLowerCase().includes(`template00000`)) {
-     message.channel.send("output");
+ if (message.content.toLowerCase().includes(`crying`)) {
+     message.channel.send("YOU LUCKY CALLER , HAVE WON THE DREAM OF A LIFETIME!:rainbow::rainbow::rainbow::rainbow::unicorn::unicorn::unicorn:YOU AND 3 OTHERS OF YOUR CHOOSING FROM NEW TROLL, GET TO WATCH :speaking_head:KAIFUCKINSCHMONEY:speaking_head:CRY TO FRANK OCEAN FOR THE EVENING:confetti_ball::tada::partying_face::confetti_ball::tada::partying_face::confetti_ball::partying_face::tada::tada::confetti_ball::smirk_cat::smirk_cat::smirk_cat::raised_hands_tone2::raised_hands_tone2::raised_hands_tone2::raised_hands_tone2::dancer::dancer::dancer::dancer::woman_playing_water_polo::woman_playing_water_polo::woman_playing_water_polo::woman_playing_water_polo::100::100::100::100::zany_face::zany_face::zany_face::zany_face:");
    }
 
 
