@@ -13,8 +13,37 @@ client.on("message", async message => {
   
   
 // this is where the fun begins
-// replace the `filler10283` with the text u want the bot to catch
+// replace the `template00000` with the text u want the bot to catch
 // and then the "output" will be what the bot says
+
+ if (message.content.toLowerCase().includes(`template00000`)) {
+     message.channel.send("output");
+   }
+
+
+ if (message.content.toLowerCase().includes(`template00000`)) {
+     message.channel.send("output");
+   }
+
+
+ if (message.content.toLowerCase().includes(`template00000`)) {
+     message.channel.send("output");
+   }
+
+
+ if (message.content.toLowerCase().includes(`template00000`)) {
+     message.channel.send("output");
+   }
+
+
+ if (message.content.toLowerCase().includes(`template00000`)) {
+     message.channel.send("output");
+   }
+
+
+ if (message.content.toLowerCase().includes(`kaischfuckingmoney`)) {
+     message.channel.send("if GOLD and my bf :woman_tipping_hand: :two_hearts: both drownin :cold_sweat: :sweat_drops: and i can only save one :point_up: catch me at my boy funeral :skull_crossbones: :coffin: with a gold chain on my neck :key: :prayer_beads: :sparkles: fly as a jet :airplane: :money_with_wings: :stuck_out_tongue_winking_eye:");
+   }
 
  if (message.content.toLowerCase().includes(`joe`)) {
      message.channel.send("mama");
