@@ -93,7 +93,7 @@ client.on("message", async message => {
    }
 
   if (message.content.toLowerCase().includes(`ok`)) {
-     message.channel.send("ok");
+     message.channel.send("bitch :neutral_face:");
    }
 
   if (message.content.toLowerCase().includes(`stfu`)) {
