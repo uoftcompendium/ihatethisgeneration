@@ -167,7 +167,7 @@ client.on("message", async message => {
    }
 
   if (message.content.toLowerCase().includes(`cutie`)) {
-     message.channel.send("kai's full time job");
+     message.channel.send("spelt k-a-i-l-e-y");
    }
 
   if (message.content.toLowerCase().includes(`ameer`)) {
