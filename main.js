@@ -7,7 +7,7 @@ const client = new Discord.Client();
 client.on("message", async message => {
   // ATTENTION !!!!!!! THIS IS WHERE YOU CAN CHANGE THE STATUS LOOK RIGHT BELOW
   // you can change the online thingy to 'online', 'idle', or 'dnd'
-  client.user.setPresence({ activity: { name: 'yeah, because we stick together, and make sure our friends get help with what they need yeah, because we stick together, and make sure our friends get help with what they need' }, status: 'idle' })
+  client.user.setPresence({ activity: { name: 'everybody hates cricut' }, status: 'idle' })
  if(message.author.bot) return;
 
   
