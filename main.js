@@ -36,8 +36,8 @@ client.on("message", async message => {
    }
 
 
- if (message.content.toLowerCase().includes(`template00000`)) {
-     message.channel.send("output");
+ if (message.content.toLowerCase().includes(`word`)) {
+     message.channel.send("word");
    }
 
 
