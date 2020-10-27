@@ -74,7 +74,7 @@ client.on("message", async message => {
      message.channel.send("Y'all need to shut up! This ain't the channel for flirting");
    }
 
- if (message.content.toLowerCase().includes(`temp`)) {
+ if (message.content.toLowerCase().includes(`temp000000000`)) {
      message.channel.send("output");
    }
 
