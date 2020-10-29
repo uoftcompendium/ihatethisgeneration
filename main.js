@@ -8,7 +8,7 @@ client.on("message", async message => {
   // ATTENTION !!!!!!! THIS IS WHERE YOU CAN CHANGE THE STATUS LOOK RIGHT BELOW
   // you can change the online thingy to 'online', 'idle', or 'dnd'
   // you can also change 'WATCHING' to 'PLAYING' or 'LISTENING'
-  client.user.setPresence({ activity: { name: 'your eyes 😍', type: 'WATCHING'}, status: 'idle' })
+  client.user.setPresence({ activity: { name: 'sweet dreams 💕', type: 'PLAYING'}, status: 'idle' })
   
  if(message.author.bot) return;
 
