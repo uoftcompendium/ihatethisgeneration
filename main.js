@@ -8,7 +8,7 @@ client.on("message", async message => {
   // ATTENTION !!!!!!! THIS IS WHERE YOU CAN CHANGE THE STATUS LOOK RIGHT BELOW
   // you can change the online thingy to 'online', 'idle', or 'dnd'
   // you can also change 'WATCHING' to 'PLAYING' or 'LISTENING'
-  client.user.setPresence({ activity: { name: 'thinking of yew💕', type: 'PLAYING'}, status: 'idle' })
+  client.user.setPresence({ activity: { name: 'missing you to the moon 💕', type: 'PLAYING'}, status: 'idle' })
   
  if(message.author.bot) return;
 
@@ -19,8 +19,7 @@ client.on("message", async message => {
 // and then the "output" will be what the bot says
 
  if (message.content.toLowerCase().includes(`working`)) {
-     message.channel.send("hi im so sorry for the late rrespond um rough night buuut uhh i dont want you to think im not working like i did alot of sequences yesterday but it seemed like it was all wrong soo ummm im gonna be working on it today cause i do things better when like theyre last minute uhhhhhhhhhhhhhhhhh but yeah im just gonna finish like aaaa chemistry quiz that i have and then ill work on it
-");
+     message.channel.send("hi im so sorry for the late rrespond um rough night buuut uhh i dont want you to think im not working like i did alot of sequences yesterday but it seemed like it was all wrong soo ummm im gonna be working on it today cause i do things better when like theyre last minute uhhhhhhhhhhhhhhhhh but yeah im just gonna finish like aaaa chemistry quiz that i have and then ill work on it");
    }
 
 
