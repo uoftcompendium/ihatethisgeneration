@@ -18,8 +18,9 @@ client.on("message", async message => {
 // replace the `template00000` with the text u want the bot to catch
 // and then the "output" will be what the bot says
 
- if (message.content.toLowerCase().includes(`template00000`)) {
-     message.channel.send("output");
+ if (message.content.toLowerCase().includes(`working`)) {
+     message.channel.send("hi im so sorry for the late rrespond buuut uhh i dont want you to think im not working like i did alot of sequences yesterday but it seemed like it was all wrong soo ummm im gonna be working on it today cause i do things better when like theyre last minute uhhhhhhhhhhhhhhhhh but yeah im just gonna finish like aaaa chemistry quiz that i have and then ill work on it
+");
    }
 
 
