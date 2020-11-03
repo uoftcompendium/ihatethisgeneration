@@ -33,8 +33,8 @@ client.on("message", async message => {
    }
 
 
- if (message.content.toLowerCase().includes(`template00000`)) {
-     message.channel.send("output");
+ if (message.content.toLowerCase().includes(`peer review`)) {
+     message.channel.send("This particlar article wasn't as informative as I had initially thought when conducting my research, but it is good to know that there is always room for improvement within my community.");
    }
 
 
