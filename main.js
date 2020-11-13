@@ -8,7 +8,7 @@ client.on("message", async message => {
   // ATTENTION !!!!!!! THIS IS WHERE YOU CAN CHANGE THE STATUS LOOK RIGHT BELOW
   // you can change the online thingy to 'online', 'idle', or 'dnd'
   // you can also change 'WATCHING' to 'PLAYING' or 'LISTENING'
-  client.user.setPresence({ activity: { name: 'missing you 🤽‍', type: 'PLAYING'}, status: 'idle' })
+  client.user.setPresence({ activity: { name: 'holiday by lil nas x', type: 'PLAYING'}, status: 'idle' })
   
  if(message.author.bot) return;
 
@@ -278,7 +278,7 @@ client.on("message", async message => {
    }
 
   if (message.content.toLowerCase().includes(`good morning`)) {
-     message.channel.send("good morning cuties :blush:");
+     message.channel.send("good morning cuties :relaxed:");
    }
 
   if (message.content.toLowerCase().includes(`eddy`)) {
