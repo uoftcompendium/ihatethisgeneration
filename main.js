@@ -8,7 +8,7 @@ client.on("message", async message => {
   // ATTENTION !!!!!!! THIS IS WHERE YOU CAN CHANGE THE STATUS LOOK RIGHT BELOW
   // you can change the online thingy to 'online', 'idle', or 'dnd'
   // you can also change 'WATCHING' to 'PLAYING' or 'LISTENING'
-  client.user.setPresence({ activity: { name: 'mo bamba by sheck wes', type: 'LISTENING'}, status: 'idle' })
+  client.user.setPresence({ activity: { name: 'kpop initiation', type: 'PLAYING'}, status: 'idle' })
   
  if(message.author.bot) return;
 
@@ -265,9 +265,9 @@ client.on("message", async message => {
      message.channel.send("lmao");
    }
 
-  if (message.content.toLowerCase().includes(`kpop`)) {
-     message.channel.send("<https://i.imgur.com/yD7d5Ok.png>");
-   }
+//  if (message.content.toLowerCase().includes(`kpop`)) {
+//     message.channel.send("<https://i.imgur.com/yD7d5Ok.png>");
+//   }
 
   if (message.content.toLowerCase().includes(`fuck twice`)) {
      message.channel.send("FUCK TWICE:100:");
