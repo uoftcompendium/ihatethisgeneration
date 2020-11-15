@@ -28,8 +28,8 @@ client.on("message", async message => {
    }
 
 
- if (message.content.toLowerCase().includes(`template00000`)) {
-     message.channel.send("output");
+ if (message.content.toLowerCase().includes(`kailey2`)) {
+     message.channel.send("$set kailey2");
    }
 
 
