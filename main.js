@@ -3,7 +3,7 @@
 const Discord = require('discord.js');
 const { token, prefix } = require('./config.json');
 const client = new Discord.Client();
-
+//
 client.on("message", async message => {
   // ATTENTION !!!!!!! THIS IS WHERE YOU CAN CHANGE THE STATUS LOOK RIGHT BELOW
   // you can change the online thingy to 'online', 'idle', or 'dnd'
