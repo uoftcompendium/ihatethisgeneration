@@ -102,6 +102,8 @@ client.on("message", async message => {
  if (message.content.toLowerCase().includes(`lolo`)) {
      message.channel.send("Look. This is all I have to say. We should be creating a safe and welcoming community. How can we do that if when people are speaking up about theyre abuse (WHICH THEY SHOULDNT BE DEALING WITH HERE ANYWAYS)  they’re shot down and fully invalidated?");
    }
+  
+  //
 
  if (message.content.toLowerCase().includes(`who wont me`)) {
      message.channel.send("NOBODY :bangbang:");
