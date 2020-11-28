@@ -8,7 +8,7 @@ client.on("message", async message => {
   // ATTENTION !!!!!!! THIS IS WHERE YOU CAN CHANGE THE STATUS LOOK RIGHT BELOW
   // you can change the online thingy to 'online', 'idle', or 'dnd'
   // you can also change 'WATCHING' to 'PLAYING' or 'LISTENING'
-  client.user.setPresence({ activity: { name: 'Hop out the coupe (Woo)', type: 'PLAYING'}, status: 'idle' })
+  client.user.setPresence({ activity: { name: 'so down bad we streaming partynextdoor', type: 'PLAYING'}, status: 'idle' })
   
  if(message.author.bot) return;
 
@@ -30,6 +30,10 @@ client.on("message", async message => {
 
  if (message.content.toLowerCase().includes(`kailey2`)) {
      message.channel.send("$set kailey2");
+   }
+
+ if (message.content.toLowerCase().includes(`guess`)) {
+     message.channel.send("who's alive again :neutral_face:");
    }
 
 
