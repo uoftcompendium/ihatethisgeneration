@@ -32,6 +32,14 @@ client.on("message", async message => {
      message.channel.send("$set kailey2");
    }
 
+ if (message.content.toLowerCase().includes(`bts`)) {
+     message.channel.send("YOU LUCKY CALLER , HAVE WON THE HELL OF A LIFETIME!:rainbow::rainbow::rainbow::rainbow::unicorn::unicorn::unicorn:YOU AND 3 OTHERS OF YOUR CHOOSING FROM NEW TROLL, GET TO WATCH :speaking_head:KAIFUCKINSCHMONEY:speaking_head:SPAM WK COMMANDS ON RANDOM KPOP GROUPS EVERY TIME I BLINK:confetti_ball::tada::partying_face::confetti_ball::tada::partying_face::confetti_ball::partying_face::tada::tada::confetti_ball::smirk_cat::smirk_cat::smirk_cat::raised_hands_tone2::raised_hands_tone2::raised_hands_tone2::raised_hands_tone2::dancer::dancer::dancer::dancer::woman_playing_water_polo::woman_playing_water_polo::woman_playing_water_polo::woman_playing_water_polo::100::100::100::100::zany_face::zany_face::zany_face::zany_face:");
+   }
+
+ if (message.content.toLowerCase().includes(`zimbabwe`)) {
+     message.channel.send("ZIMZALABIMZIMZIMZALABIMZIMZIMZALABIMZIMZIMMMM");
+   }
+
  if (message.content.toLowerCase().includes(`guess`)) {
      message.channel.send("who's alive again :neutral_face:");
    }
