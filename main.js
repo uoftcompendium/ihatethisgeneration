@@ -23,6 +23,15 @@ client.on("message", async message => {
    }
 
 
+ if (message.content.toLowerCase().includes(`my typing yum`)) {
+     message.channel.send("i#mahut");
+   }
+
+ if (message.content.toLowerCase().includes(`shut up lol`)) {
+     message.channel.send("Added another SHUT UP LOL to the tally :100:");
+   }
+
+
  if (message.content.toLowerCase().includes(`peer review`)) {
      message.channel.send("This particlar article wasn't as informative as I had initially thought when conducting my research, but it is good to know that there is always room for improvement within my community.");
    }
