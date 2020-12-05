@@ -157,7 +157,7 @@ client.on("message", async message => {
    }
 
   if (message.content.toLowerCase().includes(`poptart`)) {
-     message.channel.send("only tank's allowed to say that :neutral_face:");
+     message.channel.send("only huz can you that :grin");
    }
 
   if (message.content.toLowerCase().includes(`butterfly`)) {
