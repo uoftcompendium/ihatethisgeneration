@@ -157,7 +157,7 @@ client.on("message", async message => {
    }
 
   if (message.content.toLowerCase().includes(`poptart`)) {
-     message.channel.send("only huz can you that :grin");
+     message.channel.send("only huz can call you that :grin:");
    }
 
   if (message.content.toLowerCase().includes(`butterfly`)) {
