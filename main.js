@@ -139,10 +139,6 @@ client.on("message", async message => {
      message.channel.send("waiting for bail");
    }
 
-  if (message.content.toLowerCase().includes(`ok`)) {
-     message.channel.send("bitch :neutral_face:");
-   }
-
   if (message.content.toLowerCase().includes(`stfu`)) {
      message.react(`756581516842238174`);
    }
