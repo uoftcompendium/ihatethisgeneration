@@ -27,7 +27,7 @@ client.on("message", async message => {
      message.channel.send("i#mahut");
    }
 
- if (message.content.toLowerCase().includes(`shut up lol`)) {
+ if (message.content.toLowerCase().includes(`shutuplol`)) {
      message.channel.send("Added another SHUT UP LOL to the tally :100:");
    }
 
@@ -49,9 +49,9 @@ client.on("message", async message => {
      message.channel.send("ZIMZALABIMZIMZIMZALABIMZIMZIMZALABIMZIMZIMMMM");
    }
 
- if (message.content.toLowerCase().includes(`guess`)) {
-     message.channel.send("who's alive again :neutral_face:");
-   }
+// if (message.content.toLowerCase().includes(`guess`)) {
+//     message.channel.send("who's alive again :neutral_face:");
+//   }
 
 
  if (message.content.toLowerCase().includes(`template00000`)) {
@@ -107,11 +107,6 @@ client.on("message", async message => {
    }
 
 
- if (message.content.toLowerCase().includes(`glass`)) {
-     message.channel.send("animals belongs to huz and huz only");
-   }
-
-
  if (message.content.toLowerCase().includes(`anthony`)) {
      message.channel.send("calling all hot singles 35 and over :telephone:");
    }
@@ -157,7 +152,7 @@ client.on("message", async message => {
    }
 
   if (message.content.toLowerCase().includes(`poptart`)) {
-     message.channel.send("only huz can call you that :grin:");
+     message.channel.send("sweetest person i know :grin:");
    }
 
   if (message.content.toLowerCase().includes(`butterfly`)) {
@@ -180,10 +175,6 @@ client.on("message", async message => {
      message.channel.send("its pronounced :sparkles: starbees :sparkles:");
    }
 
-  if (message.content.toLowerCase().includes(`disclaimer`)) {
-     message.channel.send("this message is not sponsored by tank im innocent");
-   }
-
 
   if (message.content.toLowerCase().includes(`quando`)) {
      message.channel.send("rondo");
@@ -197,24 +188,16 @@ client.on("message", async message => {
      message.channel.send("Ameer is no longer in BROCKHAMPTON. We want to sincerely apologize to the victims affected by Vann's actions. We were lied to, and we're sorry for not speaking up sooner. We do not tolerate abuse of any kind. This is not a solution to their suffering, but we hope this is a step in the right direction. We are going to cancel the remaining dates of our current US tour to go home and regroup.");
    }
 
-  if (message.content.toLowerCase().includes(`i hate it here`)) {
-     message.react(`😐`);
-   }
-
-  if (message.content.toLowerCase().includes(`goddess`)) {
-     message.react(`😐`);
-   }
+//  if (message.content.toLowerCase().includes(`i hate it here`)) {
+//     message.react(`😐`);
+//   }
 
   if (message.content.toLowerCase().includes(`new york`)) {
      message.react(`760644161925545984`);
      message.react(`760552675346481182`);
    }
 
-  if (message.content.toLowerCase().includes(`bein cute`)) {
-     message.channel.send("<:stopbeingcute:760955473817108491>");
-   }
-
-  if (message.content.toLowerCase().includes(`being cute`)) {
+  if (message.content.toLowerCase().includes(`quit being cute`)) {
      message.channel.send("<:stopbeingcute:760955473817108491>");
    }
     
@@ -231,7 +214,7 @@ client.on("message", async message => {
    }
 
   if (message.content.toLowerCase().includes(`imy`)) {
-     message.channel.send("<a:thinkingofyew:760955701907554365>");
+     message.react(`760955701907554365`);
    }
 
   if (message.content.toLowerCase().includes(`meow`)) {
@@ -240,10 +223,6 @@ client.on("message", async message => {
 
   if (message.content.toLowerCase().includes(`heyyy`)) {
      message.channel.send("haha heyyyy <:heymamas:767063306468327444>");
-   }
-
-  if (message.content.toLowerCase().includes(`tank`)) {
-     message.channel.send("is not a furry :neutral_face:");
    }
 
   if (message.content.toLowerCase().includes(`ohio`)) {
@@ -259,20 +238,14 @@ client.on("message", async message => {
    }
 
   if (message.content.toLowerCase().includes(`fine`)) {
-     message.channel.send("lowkey boutta nut");
-   }
+     message.react(`759867737269993552`);
 
-  if (message.content.toLowerCase().includes(`lowkey boutta nut`)) {
-     message.channel.send(":smirk_cat:");
    }
 
   if (message.content.toLowerCase().includes(`beabadoobee`)) {
      message.channel.send("who????");
    }
 
-  if (message.content.toLowerCase().includes(`going`)) {
-     message.channel.send("to hell :airplane:");
-   }
 
   if (message.content.toLowerCase().includes(`color`)) {
      message.channel.send("colo**u**r");
@@ -290,9 +263,6 @@ client.on("message", async message => {
 //     message.channel.send("<https://i.imgur.com/yD7d5Ok.png>");
 //   }
 
-  if (message.content.toLowerCase().includes(`fuck twice`)) {
-     message.channel.send("FUCK TWICE:100:");
-   }
 
   if (message.content.toLowerCase().includes(`dhruv`)) {
      message.channel.send("I only spend a couple hours a day on Discord, and it's mostly to make my bots better and better my coding skills. I don't enjoy moderation, honestly. It's difficult with people like you in the server.");
@@ -308,10 +278,6 @@ client.on("message", async message => {
 
   if (message.content.toLowerCase().includes(`yah`)) {
      message.channel.send("yeet!");
-   }
-
-  if (message.content.toLowerCase().includes(`twice`)) {
-     message.channel.send("calling paige :telephone:");
    }
 
   if (message.content.toLowerCase().includes(`earthgang`)) {
@@ -336,7 +302,7 @@ client.on("message", async message => {
    }
 
   if (message.content.toLowerCase().includes(`yaul`)) {
-     message.author.send("its y'all :neutral_face: :neutral_face: :neutral_face: :neutral_face: :neutral_face:");
+     message.channel.send("its y'all :neutral_face: :neutral_face: :neutral_face: :neutral_face: :neutral_face:");
    }
 
   }
