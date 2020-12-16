@@ -209,10 +209,6 @@ client.on("message", async message => {
      message.channel.send("candian*");
    }
 
-  if (message.content.toLowerCase().includes(`imy`)) {
-     message.react(`760955701907554365`);
-   }
-
   if (message.content.toLowerCase().includes(`meow`)) {
      message.channel.send("<:yknowmeow:765938527904464946>");
    }
