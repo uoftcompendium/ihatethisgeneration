@@ -10,7 +10,7 @@ client.on("message", async message => {
   // you can also change 'WATCHING' to 'PLAYING' or 'LISTENING'
   client.user.setPresence({ activity: { name: 'thinking of you 💃', type: 'PLAYING'}, status: 'idle' })
   
-
+ if(message.author.bot) return;
   
   
 // this is where the fun begins
