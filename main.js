@@ -19,7 +19,7 @@ client.on("message", async message => {
 
  if (message.content.toLowerCase().includes(`married`)) {
      message.channel.send("why paige always tryna rub shit in our faces smh \"i took a shit on kailey\'s bed before the rest of you HA\" WE DO NOT CARE!!!!!!!!!!!!!!!!!!");
-   }:
+   }
 
  if (message.content.toLowerCase().includes(`huz`)) {
      message.channel.send("hey bestie :kissing_smiling_eyes:");
