@@ -83,6 +83,30 @@ client.on("message", async message => {
      message.channel.send("picturing paige throwing ass behind the dsw register in a rhombus");
    }
   
+ if (message.content.toLowerCase().includes(`headache`)) {
+     message.channel.send("why you tweeting about it");
+   }
+
+ if (message.content.toLowerCase().includes(`type`)) {
+     message.channel.send("this hoe casting spells");
+   }
+
+ if (message.content.toLowerCase().includes(`bussy`)) {
+     message.channel.send("silence hoes im bussy popping");
+   }
+
+ if (message.content.toLowerCase().includes(`input`)) {
+     message.channel.send("input");
+   }
+
+ if (message.content.toLowerCase().includes(`input`)) {
+     message.channel.send("input");
+   }
+
+ if (message.content.toLowerCase().includes(`input`)) {
+     message.channel.send("input");
+   }
+  
   
   
   }
