@@ -76,7 +76,7 @@ client.on("message", async message => {
    }
 
  if (message.content.toLowerCase().includes(`baby pictures`)) {
-     message.channel.send("paige like omg did someone say baby pics :pleading_face: do you guys wanna see me as a zygote");
+     message.channel.send("omg did someone say baby pics :pleading_face: do you guys wanna see me as a zygote");
    }
   
  if (message.content.toLowerCase().includes(`ass`)) {
