@@ -41,8 +41,8 @@ client.on("message", async message => {
      message.channel.send("kailey cant even rec songs anymore without someone pulling up her top artists and going \"u know what? on second thought, im good\"");
    }
 
- if (message.content.toLowerCase().includes(`huz`)) {
-     message.channel.send("hey bestie");
+ if (message.content.toLowerCase().includes(`paige`)) {
+     message.channel.send("leprechaun speaking");
    }
 
 
