@@ -41,8 +41,8 @@ client.on("message", async message => {
      message.channel.send("kailey cant even rec songs anymore without someone pulling up her top artists and going \"u know what? on second thought, im good\"");
    }
 
- if (message.content.toLowerCase().includes(`paige`)) {
-     message.channel.send("leprechaun speaking");
+ if (message.content.toLowerCase().includes(`paigey`)) {
+     message.channel.send("shut up");
    }
 
 
@@ -71,7 +71,7 @@ client.on("message", async message => {
      message.channel.send(":speaking_head:kaifuckinschmoney we need you to shut the fuck up immediately :speaking_head: kaifuckinschmoney shut the fuck up immediately :speaking_head:");
    }
 
- if (message.content.toLowerCase().includes(`james`)) {
+ if (message.content.toLowerCase().includes(`imports`)) {
      message.channel.send("yes i saw your import files yes im ignoring them busy drawing clairo");
    }
 
