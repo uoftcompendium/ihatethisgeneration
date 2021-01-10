@@ -29,8 +29,8 @@ client.on("message", async message => {
      message.channel.send("mfs see kailey's top chart and be like omg bae who hacked you :scream: :scream: :scream: :scream: :scream: :scream:");
    }
 
- if (message.content.toLowerCase().includes(`marvin gaye`)) {
-     message.channel.send("not a kailey or paige in sight, just vibin");
+ if (message.content.toLowerCase().includes(`yves`)) {
+     message.channel.send(goon one is now activated, targets locked on kailey");
    }
 
  if (message.content.toLowerCase().includes(`gecs`)) {
