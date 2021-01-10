@@ -30,7 +30,7 @@ client.on("message", async message => {
    }
 
  if (message.content.toLowerCase().includes(`yves`)) {
-     message.channel.send(goon one is now activated, targets locked on kailey");
+     message.channel.send("goon one is now activated, targets locked on kailey");
    }
 
  if (message.content.toLowerCase().includes(`gecs`)) {
