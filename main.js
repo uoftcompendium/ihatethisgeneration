@@ -95,8 +95,8 @@ client.on("message", async message => {
      message.channel.send("silence hoes im bussy popping");
    }
 
- if (message.content.toLowerCase().includes(`input`)) {
-     message.channel.send("input");
+ if (message.content.toLowerCase().includes(`jqbx`)) {
+     message.channel.send("https://app.jqbx.fm/room/noochroll");
    }
 
  if (message.content.toLowerCase().includes(`input`)) {
