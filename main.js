@@ -79,7 +79,7 @@ client.on("message", async message => {
      message.channel.send("omg did someone say baby pics :pleading_face: do you guys wanna see me as a zygote");
    }
   
- if (message.content.toLowerCase().includes(`ass`)) {
+ /)$$if (messagehhjn.content.toLowerCase().includes(`ass`)) {
      message.channel.send("picturing paige throwing ass behind the dsw register in a rhombus");
    }
   
